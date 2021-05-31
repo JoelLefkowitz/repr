@@ -1,0 +1,44 @@
+output_dir: .
+
+clear_top_level: true
+logical_grouping: true
+
+collections:
+    - common
+    - purescript
+
+loader_paths:
+    - docs
+
+render_context:
+    project:
+        project_name: purescript-repr
+        version: 0.1.0
+
+        verbose_name: PureScript repr
+        description: String formatting utilities.
+
+        repository: https://github.com/JoelLefkowitz/purescript-repr
+        codacy_id: fa35b2e4ce8c4223bed24727e42bc0fb
+
+        inserts:
+            - usage.md
+
+    author:
+        author: Joel Lefkowitz
+        author_email: joellefkowitz@hotmail.com
+        author_github_handle: joellefkowitz
+
+    package:
+        is_pursuit_package: true
+        package_name: repr
+
+    portfolio:
+        is_portfolio: true
+        status_level: 2
+
+        languages:
+            - PureScript
+
+        paradigms:
+            - Functional programming
