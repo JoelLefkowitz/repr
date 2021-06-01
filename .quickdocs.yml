@@ -2,5 +2,5 @@ project: purescript-repr
 version: 0.1.0
 author: Joel Lefkowitz
 verbose_name: PureScript repr
-html_title: PureScript repr
+html_title: PureScript repr 
 github_url: https://github.com/JoelLefkowitz/purescript-repr
