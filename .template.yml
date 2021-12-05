@@ -13,7 +13,7 @@ render_context:
   project:
     name: purescript-repr
     description: String formatting utilities.
-    version: 0.2.0
+    version: 0.3.0
     verbose_name: PureScript Repr
     repository: https://github.com/JoelLefkowitz/purescript-repr
     codacy_id: fa35b2e4ce8c4223bed24727e42bc0fb
