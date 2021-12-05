@@ -1,11 +1,13 @@
 { name = "purescript-repr"
-, version = "0.2.0"
+, version = "0.3.0"
 , repository = "https://github.com/JoelLefkowitz/purescript-repr"
 , license = "MIT"
 , dependencies = 
-    [ "prelude"
+    [ "ordered-collections"
+    , "prelude"
     , "strings"
-    , "tuples" 
+    , "stringutils"
+    , "tuples"
     ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]

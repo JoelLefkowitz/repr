@@ -18,8 +18,10 @@
     "package.json"
   ],
   "dependencies": {
+    "purescript-ordered-collections": "^2.0.2",
     "purescript-prelude": "^5.0.1",
     "purescript-strings": "^5.0.0",
+    "purescript-stringutils": "^0.0.11",
     "purescript-tuples": "^6.0.1"
   },
   "devDependencies": {
