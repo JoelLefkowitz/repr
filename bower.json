@@ -1,7 +1,7 @@
 {
   "name": "purescript-repr",
   "version": "0.3.1",
-  "description": "String formatting utilities.",
+  "description": "String formatters.",
   "homepage": "https://github.com/JoelLefkowitz/purescript-repr",
   "license": "MIT",
   "repository": {
@@ -11,11 +11,15 @@
   "ignore": [
     "**/.*",
     "bower_components",
+    "bower.json",
+    "generated-docs",
     "node_modules",
     "output",
+    "package-lock.json",
+    "package.json",
     "test",
-    "bower.json",
-    "package.json"
+    "yarn-error.log",
+    "yarn.lock"
   ],
   "dependencies": {
     "purescript-ordered-collections": "^2.0.2",

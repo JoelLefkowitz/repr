@@ -1,7 +1,6 @@
 module Data.String.Repr where
 
 import Prelude
-
 import Data.Array (cons)
 import Data.Foldable (class Foldable, foldl, foldr)
 import Data.List (zip)

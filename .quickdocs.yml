@@ -1,7 +1,0 @@
-project: purescript-repr
-version: 0.3.1
-author: Joel Lefkowitz
-verbose_name: PureScript Repr
-html_title: PureScript Repr
-github_url: https://github.com/JoelLefkowitz/purescript-repr
-apidoc_module_dir: src
