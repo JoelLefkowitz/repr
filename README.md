@@ -17,6 +17,40 @@ String formatters.
 bower install purescript-repr
 ```
 
+## Usage
+
+Join an `Array` into with a delimeter:
+
+```purs
+> joinWith ", " [ 1, 2, 3 ]
+"1, 2, 3"
+```
+
+Format a `Map` into a readable (_and debuggable_) format:
+
+```purs
+> kvStrings $ fromFoldable [ Tuple "a" 1 , Tuple "b" 2 , Tuple "c" 3]
+[ "a: 1", "b: 2", "c: 3" ]
+```
+
+Trim substrings:
+
+```purs
+> trimStart "a" "abc"
+"bc"
+
+> trimStart "d" "abc"
+"abc"
+```
+
+```purs
+> trimEnd "c" "abc"
+"ab"
+
+> trimEnd "d" "abc"
+"abc"
+```
+
 ## Tests
 
 To run tests:
