@@ -1,12 +1,12 @@
 {
-  "name": "purescript-repr",
-  "version": "0.3.1",
+  "name": "repr",
   "description": "String formatters.",
-  "homepage": "https://github.com/JoelLefkowitz/purescript-repr",
+  "version": "0.3.1",
+  "homepage": "https://github.com/JoelLefkowitz/repr",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoelLefkowitz/purescript-repr"
+    "url": "https://github.com/JoelLefkowitz/repr"
   },
   "ignore": [
     "**/.*",

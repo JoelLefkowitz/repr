@@ -1,0 +1,17 @@
+{
+  "name": "repr",
+  "description": "String formatters.",
+  "version": "0.3.1",
+  "license": "MIT",
+  "location": {
+    "githubOwner": "joellefkowitz",
+    "githubRepo": "repr"
+  },
+  "dependencies": {
+    "ordered-collections": "^2.0.2",
+    "prelude": "^5.0.1",
+    "strings": "^5.0.0",
+    "stringutils": "^0.0.11",
+    "tuples": "^6.0.1"
+  }
+}
