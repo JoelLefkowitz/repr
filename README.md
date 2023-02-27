@@ -63,6 +63,12 @@ pulp test
 
 This repository's documentation is hosted on [Pursuit](https://pursuit.purescript.org/packages/purescript-repr).
 
+To generate the documentation locally:
+
+```bash
+pulp docs
+```
+
 ## Linters
 
 To run linters:
