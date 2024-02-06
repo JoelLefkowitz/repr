@@ -2,7 +2,7 @@ package:
   name: repr
   description: String formatters.
   publish:
-    version: 0.4.4
+    version: 0.4.5
     license: MIT
     location:
       githubOwner: joellefkowitz
