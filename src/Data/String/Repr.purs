@@ -15,13 +15,13 @@ import Data.Tuple (Tuple(..))
 trimStart :: String -> String -> String
 trimStart x str
   | x == str = ""
-  | startsWith x str = fromMaybe str $ slice (length x) (length str) str
+  | startsWith x str = slice (length x) (length str) str
   | otherwise = str
 
 trimEnd :: String -> String -> String
 trimEnd x str
   | x == str = ""
-  | endsWith x str = fromMaybe str $ slice 0 (length str - length x) str
+  | endsWith x str = slice 0 (length str - length x) str
   | otherwise = str
 
 showWithoutQuotes :: forall a. Show a => a -> String
