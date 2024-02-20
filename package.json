@@ -1,4 +1,12 @@
 {
+  "private": false,
+  "author": "Joel Lefkowitz",
+  "repository": "https://github.com/joellefkowitz/repr",
+  "homepage": "https://joellefkowitz.github.io/repr",
+  "keywords": [
+    "formatting",
+    "strings"
+  ],
   "metadata": {
     "publisher": "Pursuit",
     "languages": [
