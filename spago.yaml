@@ -1,6 +1,14 @@
 package:
   name: repr
   description: String formatters.
+  repository: https://github.com/JoelLefkowitz/repr
+  homepage: https://joellefkowitz.github.io/repr
+  keywords:
+    - format
+    - strings
+    - show
+    - trim
+
   publish:
     version: 0.4.5
     license: MIT
@@ -27,11 +35,17 @@ package:
       - --minify
       - --outfile=dist/bundle.js
 
+metadata:
+  publisher: Pursuit
+  languages:
+    - PureScript
+
+  frameworks: []
+  paradigms:
+    - Functional
+
+  lifecycle: Alpha
+
 workspace:
   package_set:
     registry: 41.2.0
-  
-
-  
-  
-  
