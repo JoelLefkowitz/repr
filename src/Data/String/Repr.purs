@@ -28,9 +28,9 @@ showWithoutQuotes :: forall a. Show a => a -> String
 showWithoutQuotes x = trimEnd "\"" $ trimStart "\"" $ show x
 
 joinWith :: forall a f. Show a => Foldable f => String -> f a -> String
-joinWith delimeter foldable = trimEnd delimeter joined
+joinWith delimiter foldable = trimEnd delimiter joined
   where
-  joined = foldl (\acc x -> acc <> showWithoutQuotes x <> delimeter) "" foldable
+  joined = foldl (\acc x -> acc <> showWithoutQuotes x <> delimiter) "" foldable
 
 showKv :: forall k v. Show k => Show v => Tuple k v -> String
 showKv (Tuple k v) = showWithoutQuotes k <> ": " <> showWithoutQuotes v
@@ -39,4 +39,4 @@ kvStrings :: forall k v. Show k => Show v => Map k v -> Array String
 kvStrings mp = foldr (\x acc -> cons (showKv x) acc) [] $ zip (keys mp) (values mp)
 
 fmtShow :: forall k v. Show k => Show v => String -> String -> Map k v -> String -> String
-fmtShow prefix delimeter fields suffix = prefix <> joinWith delimeter (kvStrings fields) <> suffix
+fmtShow prefix delimiter fields suffix = prefix <> joinWith delimiter (kvStrings fields) <> suffix

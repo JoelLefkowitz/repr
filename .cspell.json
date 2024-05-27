@@ -13,7 +13,6 @@
     "bumpversion",
     "codacy",
     "corepack",
-    "delimeter",
     "dhall",
     "foldl",
     "foldr",
@@ -21,7 +20,6 @@
     "giphy",
     "joellefkowitz",
     "lefkowitz",
-    "newtype",
     "outfile",
     "purescript",
     "purs",
@@ -29,7 +27,6 @@
     "repr",
     "spago",
     "stringutils",
-    "trufflehog",
-    "unfoldable"
+    "trufflehog"
   ]
 }

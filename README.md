@@ -1,4 +1,4 @@
-# repr
+# Repr
 
 String formatters.
 
@@ -6,7 +6,7 @@ String formatters.
 ![Version](https://pursuit.purescript.org/packages/purescript-arrayreprsearch/badge)
 ![Quality](https://img.shields.io/codacy/grade/fa35b2e4ce8c4223bed24727e42bc0fb)
 
-## Installation
+## Installing
 
 ```bash
 spago install repr
@@ -18,7 +18,7 @@ Documentation and more detailed examples are hosted on [Github Pages](https://jo
 
 ## Usage
 
-Join an `Array` into with a delimeter:
+Join an `Array` into with a delimiter:
 
 ```purs
 > joinWith ", " [ 1, 2, 3 ]
