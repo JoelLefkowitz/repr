@@ -3,7 +3,7 @@
 String formatters.
 
 ![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/repr/review.yml)
-![Version](https://pursuit.purescript.org/packages/purescript-arrayreprsearch/badge)
+![Version](https://pursuit.purescript.org/packages/purescript-repr/badge)
 ![Quality](https://img.shields.io/codacy/grade/fa35b2e4ce8c4223bed24727e42bc0fb)
 
 ## Installing
