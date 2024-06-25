@@ -22,18 +22,19 @@ package:
     - strings: ">=5.0.0 <6.0.0"
     - stringutils: ">=0.0.11 <1.0.0"
     - tuples: ">=6.0.1 <7.0.0"
+    - arrays: ">=6.0.0 <7.0.0"
+    - foldable-traversable: ">=6.0.0 <7.0.0"
+    - lists: ">=6.0.0 <7.0.0" 
+  build:
+    pedanticPackages: true
+    strict: true
 
   test:
-    main: Test.Main
+    main: Test.Data.String.Repr
     dependencies:
       - assert
       - debug
       - effect
-
-  bundle:
-    extra_args:
-      - --minify
-      - --outfile=dist/bundle.js
 
 metadata:
   publisher: Pursuit
@@ -47,5 +48,5 @@ metadata:
   lifecycle: Alpha
 
 workspace:
-  package_set:
+  packageSet:
     registry: 41.2.0
